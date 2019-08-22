@@ -52,6 +52,10 @@ spec:
 ```
 aws eks --region us-west-2 update-kubeconfig --name wonderful-mongoose-1566283660
 ```
+#help
+```
+eksctl create nodegroup --help
+```
 
 #get nodegroup name
 ```
@@ -84,4 +88,5 @@ eksctl create nodegroup --config-file=nodegroup_update.yaml
 #delete old nodegroup
 ```
 eksctl delete nodegroup --name=ng-6d3bf314 --region=us-west-2 --cluster=wonderful-mongoose-1566283660
+
 ```
