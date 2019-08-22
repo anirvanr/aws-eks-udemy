@@ -52,10 +52,6 @@ spec:
 ```
 aws eks --region us-west-2 update-kubeconfig --name wonderful-mongoose-1566283660
 ```
-#help
-```
-eksctl create nodegroup --help
-```
 
 #get nodegroup name
 ```
